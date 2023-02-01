@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueActor : ScriptableObject
+public class ChatBubble : MonoBehaviour
 {
-  public Sprite characterSprite;
-  public 
+  public Sprite bubbleSprite;
 
-  // Start is called before the first frame update
   void Start()
   {
-
+    Debug.Log(string.Format("DEBUG: pivot settings = {0}, {1}", bubbleSprite.pivot.x, bubbleSprite.pivot.y));
   }
 
   // Update is called once per frame
