@@ -2,14 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/Gravystack/[Ll]ibrary/
-/Gravystack/[Tt]emp/
-/Gravystack/[Oo]bj/
-/Gravystack/[Bb]uild/
-/Gravystack/[Bb]uilds/
-/Gravystack/[Ll]ogs/
-/Gravystack/[Mm]emoryCaptures/
-/BGM/Audacity/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
